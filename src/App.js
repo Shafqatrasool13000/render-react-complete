@@ -1,11 +1,15 @@
 import './App.css';
 import React from 'react'
-import ParentTwo from './components/optimization/Parent2';
+import Parent from './components/context/Parent';
+import ChildA from './components/context/Child';
+
 
 function App() {
   return (
     <div className="App">
-      <ParentTwo/>
+      <Parent>
+        <ChildA/>
+      </Parent>
     </div>
   );
 }
