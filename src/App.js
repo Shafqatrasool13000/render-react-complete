@@ -1,11 +1,11 @@
 import './App.css';
 import React from 'react'
-import ArrayAsState from './components/array as state/ArrayAsState';
+import ParentTwo from './components/optimization/Parent2';
 
 function App() {
   return (
     <div className="App">
-      <ArrayAsState/>
+      <ParentTwo/>
     </div>
   );
 }
